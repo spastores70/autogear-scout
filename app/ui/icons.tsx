@@ -1,0 +1,12 @@
+type IconProps = { className?: string };
+const Icon = ({ children, className }: React.PropsWithChildren<IconProps>) => <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">{children}</svg>;
+export const ArrowUpRight = () => <Icon><path d="M7 17 17 7M8 7h9v9" /></Icon>;
+export const BadgeCheck = () => <Icon><path d="m12 3 2.2 1.6 2.8.1.9 2.7 2.2 1.7-.8 2.7.8 2.7-2.2 1.7-.9 2.7-2.8.1L12 21l-2.2-1.6-2.8-.1-.9-2.7-2.2-1.7.8-2.7-.8-2.7 2.2-1.7.9-2.7 2.8-.1L12 3Z"/><path d="m8.5 12 2.2 2.2 4.8-5"/></Icon>;
+export const Gauge = () => <Icon><path d="M4 18a8 8 0 1 1 16 0"/><path d="m12 14 4-4M7 18h10"/></Icon>;
+export const BookOpen = () => <Icon><path d="M3 5.5A3.5 3.5 0 0 1 6.5 2H11v17H6.5A3.5 3.5 0 0 0 3 22V5.5ZM21 5.5A3.5 3.5 0 0 0 17.5 2H13v17h4.5A3.5 3.5 0 0 1 21 22V5.5Z"/></Icon>;
+export const ShieldCheck = () => <Icon><path d="M12 22s8-4 8-11V5l-8-3-8 3v6c0 7 8 11 8 11Z"/><path d="m9 12 2 2 4-4"/></Icon>;
+export const Search = () => <Icon><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></Icon>;
+export const CarFront = () => <Icon><path d="m5 11 1.5-5h11L19 11M3 14h18v5H3zM5 19v2M19 19v2M7 15h.01M17 15h.01"/></Icon>;
+export const Sparkles = () => <Icon><path d="m12 3-1 3-3 1 3 1 1 3 1-3 3-1-3-1-1-3ZM5 14l-.7 2.3L2 17l2.3.7L5 20l.7-2.3L8 17l-2.3-.7L5 14ZM18 12l-.8 2.2-2.2.8 2.2.8L18 18l.8-2.2 2.2-.8-2.2-.8L18 12Z"/></Icon>;
+export const Star = () => <Icon><path d="m12 2 3 6 6.5 1-4.7 4.6 1.1 6.4-5.9-3.1L6.1 20l1.1-6.4L2.5 9 9 8l3-6Z"/></Icon>;
+export const Tag = () => <Icon><path d="M20 13 11 22l-9-9V2h11l7 7a3 3 0 0 1 0 4Z"/><path d="M7 7h.01"/></Icon>;
